@@ -1,0 +1,63 @@
+.heading{
+    text-align:center;
+    font-family:Bahnschrift;
+    margin-top: 10px;
+    color:white;
+}
+.head{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.body{
+    font-family:Calibri; 
+    background-color:lightblue;
+    word-spacing: 0px;
+    background-image: url("../images/7.jpg");
+    padding:0px;
+    margin:0px;
+} 
+.new h2{
+    color: chocolate;
+}
+.headdesign{
+    padding: 20px;
+    border: 5px solid black;
+}
+.k{
+    color:  orangered;
+}
+input[type="text"]{
+    padding:5px;
+    border: 3px solid rgb(5, 5, 56);
+    margin:10px 0;
+}
+input[type="Decimal"]{
+    padding:5px;
+    border: 3px solid rgb(5, 5, 56);
+    margin:10px 0;
+}
+input[type="Number"]{
+    padding:5px;
+    border: 3px solid rgb(5, 5, 56);
+    margin:10px 0;
+}
+input[type="date"]{
+    padding:5px;
+    border: 3px solid rgb(5, 5, 56);
+    margin:10px 0;
+}
+input[type="submit"]{
+    padding:15px;
+    border: 3px ;
+    background-color: rgb(212, 28, 28);
+}
+input[type="reset"]{
+    padding:15px;
+    border: 3px ;
+    background-color: red;
+}
+select{
+    padding: 5px;
+}
