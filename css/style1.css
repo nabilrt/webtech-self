@@ -1,3 +1,7 @@
+body{
+    color: white;
+}
+
 .head{
     text-align: center;
     font-family: Bahnschrift;
@@ -16,17 +20,17 @@
     word-spacing: 0px;
     padding:0px;
     margin:0px;
-    background-image: url('../images/1.jpg')
+    background-image: url('../images/bg2.jpg')   
 }
 .table{
-    border:2px solid black;
+    border:2px solid rgb(127, 92, 223);
     width:"300"; 
     height:"200";
     border-collapse: collapse;
     border-style: dashed;
 }
 td,th{
-    border: 1px whitesmoke; 
+    border: 1px rgb(127, 92, 223); 
     border-style: dashed;
     padding: 10px;
     color: white;
@@ -36,7 +40,7 @@ tr{
 }
 .design{
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid rgb(245, 5, 45);
 }
 .txt{
     text-align: right;
@@ -56,12 +60,7 @@ tr{
 .apply{
     background-color: black;
 }
-#menu_design{
 
-}
-#menu_design ul{
-
-}
 #menu_design ul li{
     list-style-type: none;
     margin: 10px;
@@ -71,7 +70,7 @@ tr{
 #menu_design ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: darkred;
+    color: rgb(230, 7, 93);
 }
 #menu_design ul li a:hover{
     text-decoration: underline;
